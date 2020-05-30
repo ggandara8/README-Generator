@@ -58,12 +58,12 @@ const readme =`
 ${description}
 
 ## Table of Content
-*[Installation](#Installation)
-*[Usage](#Usage)
-*[License](#license)
-*[Contribution](#contribution)
-*[Test](#test)
-*[Questions](#questions)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Installation:
 To install necessary dependencies, run the following command: ${dependencies}

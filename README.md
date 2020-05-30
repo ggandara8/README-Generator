@@ -2,30 +2,30 @@
 # Project 1
 
 ## Description:
-This generates a README file utilizing inquirer and fs. 
+This is a README generator.
 
 ## Table of Content
-*[Installation](#Installation)
-*[Usage](#Usage)
-*[License](#license)
-*[Contribution](#contribution)
-*[Test](#test)
-*[Questions](#questions)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Installation:
 To install necessary dependencies, run the following command: npm i
 
 ## Usage:
-This is a clean and simple code.
+Clean code.
 
 ## License:
 MIT
 
 ## Contribution:
-Keep this clean and simple
+Keep it simple.
 
 ## Test:
-npm run test
+npm test
 
 ## Questions:
-If you have any questions feel free to reach me on ggandara8@gmail.com
+If you have any questions feel free to reach me on ggandara8@gmail.com and find me on GitHub as ggandara8.
