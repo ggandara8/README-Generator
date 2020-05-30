@@ -42,7 +42,7 @@ inquirer.prompt([
     type: "list",
     name: "license",
     message: "What licence will it use?",
-    choices: ["MIT", "Apache","GNU","Ansible","Bash"]
+    choices: ["Apache", "MIT","GNU","Ansible","Bash"]
   },
   {
     type: "input",
@@ -62,7 +62,7 @@ ${description}
 *[Usage](#Usage)
 *[License](#license)
 *[Contribution](#contribution)
-*[Tests](#tests)
+*[Test](#test)
 *[Questions](#questions)
 
 ## Installation:
@@ -81,7 +81,7 @@ ${contribution}
 ${test}
 
 ## Questions:
-If you have any questions feel free to reach me on ${email}`;
+If you have any questions feel free to reach me on ${email} and find me on GitHub as ${username}.`;
       
 fs.writeFile("README.md", readme, function(err) {
     if (err) {
