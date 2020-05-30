@@ -1,8 +1,8 @@
 
-    # Test
+    # Test 
 
     ## Description
-    perfect
+    awesome
 
     ## Table of Content
     *[Installation](#installation)
@@ -19,7 +19,7 @@
     no bugs
 
     ## License
-    
+    MIT
 
     ## Contribution
     keep clean
@@ -27,5 +27,6 @@
     ## Test
     npm test
 
-    ## Questions 
+    ## Questions
+    undefined 
     

@@ -42,12 +42,19 @@ function promptUser() {
         type: "input",
         name: "contribution",
         message: "What does the user need to know about contributing to the repo?"
+      },
+      {
+        type: "list",
+        name: "license",
+        message: "What licence will it use?",
+        choices: ["MIT", "Apache","GNU","Ansible","Bash"]
       }
   ]);
 }
 
 
 function generateREADME(answers) {
+
       return `
     # ${answers.project}
 
@@ -69,7 +76,7 @@ function generateREADME(answers) {
     ${answers.usage}
 
     ## License
-    
+    ${answers.license}
 
     ## Contribution
     ${answers.contribution}
@@ -77,7 +84,8 @@ function generateREADME(answers) {
     ## Test
     ${answers.test}
 
-    ## Questions 
+    ## Questions
+    ${answers.email} 
     `
 }
 
